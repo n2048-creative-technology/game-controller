@@ -39,7 +39,6 @@ void loop()
         bleGamepad.release(BUTTON_5);
         delay(500);
 
-
 //        bleGamepad.pressStart();
 //        bleGamepad.releaseStart();
  
