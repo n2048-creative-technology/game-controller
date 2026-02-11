@@ -30,6 +30,8 @@ void loop()
       if (out) {
         uint8_t rumbleLeft  = out[0];
         uint8_t rumbleRight = out[1];
+        
+        Serial.printf("Output report: %u %u\n", rumbleLeft, rumbleRight);
         // Drive your haptic motor(s) here.
       }
     }
